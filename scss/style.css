@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 75px;
+}
+
+.calculadora {
+  display: grid;
+  border-style: ridge;
+  height: 50vh;
+  margin-top: 25px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  grid-template-areas: "inp-display inp-display inp-display inp-display" "btn-7 btn-8 btn-9 btn-mult" "btn-4 btn-5 btn-6 btn-div" "btn-1 btn-2 btn-3 btn-resta" "btn-0 btn-igual btn-borrar btn-suma";
+}
+
+.inp-display {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.btn {
+  margin: 2px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+.btn:active {
+  background-color: dimgray;
+}
+
+.inp-display {
+  grid-area: inp-display;
+}
+
+.btn-0 {
+  grid-area: btn-0;
+}
+
+.btn-1 {
+  grid-area: btn-1;
+}
+
+.btn-2 {
+  grid-area: btn-2;
+}
+
+.btn-3 {
+  grid-area: btn-3;
+}
+
+.btn-4 {
+  grid-area: btn-4;
+}
+
+.btn-5 {
+  grid-area: btn-5;
+}
+
+.btn-6 {
+  grid-area: btn-6;
+}
+
+.btn-7 {
+  grid-area: btn-7;
+}
+
+.btn-8 {
+  grid-area: btn-8;
+}
+
+.btn-9 {
+  grid-area: btn-9;
+}
+
+.btn-suma {
+  grid-area: btn-suma;
+}
+
+.btn-resta {
+  grid-area: btn-resta;
+}
+
+.btn-div {
+  grid-area: btn-div;
+}
+
+.btn-mult {
+  grid-area: btn-mult;
+}
+
+.btn-igual {
+  grid-area: btn-igual;
+}
+
+.btn-borrar {
+  grid-area: btn-borrar;
+}/*# sourceMappingURL=style.css.map */
